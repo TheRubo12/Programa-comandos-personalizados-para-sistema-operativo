@@ -1,0 +1,130 @@
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Configuración de Red</title>
+    <style>
+					body {
+					font-family: Arial, sans-serif;
+					background-color: #f4f4f4;
+					padding: 20px;
+					}
+					h1, h2 {
+					color: #333;
+					}
+					table {
+					border-collapse: collapse;
+					width: 100%;
+					margin-bottom: 40px;
+					}
+					th, td {
+					border: 1px solid #ccc;
+					padding: 8px;
+					text-align: left;
+					}
+					th {
+					background-color: #007bff;
+					color: white;
+					}
+				</style>
+  </head>
+  <body>
+    <h1>Resumen de Configuración de Red</h1>
+    <table>
+      <tr>
+        <th>Campo</th>
+        <th>Valor</th>
+      </tr>
+      <tr>
+        <td>Adaptador</td>
+        <td>Wi-Fi</td>
+      </tr>
+      <tr>
+        <td>Dirección IP</td>
+        <td>192.168.0.22</td>
+      </tr>
+      <tr>
+        <td>Máscara de subred</td>
+        <td>192.168.0.0/24 (mscara 255.255.255.0)</td>
+      </tr>
+      <tr>
+        <td>Puerta de enlace</td>
+        <td>192.168.0.1</td>
+      </tr>
+      <tr>
+        <td>Servidor DNS</td>
+        <td>8.8.8.8</td>
+      </tr>
+      <tr>
+        <td>Latencia media</td>
+        <td>14 ms
+						</td>
+      </tr>
+    </table>
+    <h2>Saltos hacia el DNS</h2>
+    <table>
+      <tr>
+        <th>#</th>
+        <th>Tiempo 1</th>
+        <th>Tiempo 2</th>
+        <th>Tiempo 3</th>
+        <th>IP o mensaje</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>&lt;1 ms</td>
+        <td>&lt;1 ms</td>
+        <td>&lt;1 ms</td>
+        <td>192.168.0.1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>23 ms</td>
+        <td>16 ms</td>
+        <td>73 ms</td>
+        <td>10.24.16.1</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>3 * * * Tiempo de espera agotado para esta solicitud.</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>*</td>
+        <td>*</td>
+        <td>*</td>
+        <td>4 * * * Tiempo de espera agotado para esta solicitud.</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>45 ms</td>
+        <td>15 ms</td>
+        <td>27 ms</td>
+        <td>212.166.147.22</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>15 ms</td>
+        <td>61 ms</td>
+        <td>16 ms</td>
+        <td>108.170.225.251</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>15 ms</td>
+        <td>16 ms</td>
+        <td>15 ms</td>
+        <td>142.250.239.25</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>14 ms</td>
+        <td>15 ms</td>
+        <td>15 ms</td>
+        <td>8.8.8.8</td>
+      </tr>
+    </table>
+  </body>
+</html>
