@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracionRed>
+  <Adaptador>Wi-Fi</Adaptador>
+  <IP>192.168.0.22</IP>
+  <Mascara>192.168.0.0/24 (mscara 255.255.255.0)</Mascara>
+  <Gateway>192.168.0.1</Gateway>
+  <DNS>8.8.8.8</DNS>
+  <LatenciaMedia>14</LatenciaMedia>
+  <Saltos cantidad="8">
+    <Salto>  1    &lt;1 ms    &lt;1 ms    &lt;1 ms  192.168.0.1 </Salto>
+    <Salto>  2    23 ms    16 ms    73 ms  10.24.16.1 </Salto>
+    <Salto>  3     *        *        *     Tiempo de espera agotado para esta solicitud.</Salto>
+    <Salto>  4     *        *        *     Tiempo de espera agotado para esta solicitud.</Salto>
+    <Salto>  5    45 ms    15 ms    27 ms  212.166.147.22 </Salto>
+    <Salto>  6    15 ms    61 ms    16 ms  108.170.225.251 </Salto>
+    <Salto>  7    15 ms    16 ms    15 ms  142.250.239.25 </Salto>
+    <Salto>  8    14 ms    15 ms    15 ms  8.8.8.8 </Salto>
+  </Saltos>
+</ConfiguracionRed>

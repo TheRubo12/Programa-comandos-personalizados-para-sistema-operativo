@@ -1,0 +1,8 @@
+﻿  main.c
+  xslt.c
+  Generando código...
+C:\Users\Rubo\Documents\UOC entregar\Programacion de comandos personalizados\NetInfo\NetInfo\main.c(10,10): error C1083: No se puede abrir el archivo incluir: 'xslt.h': No such file or directory
+C:\Users\Rubo\Documents\UOC entregar\Programacion de comandos personalizados\Producto_4\Producto_4\xslt.c(5,5): error C2371: 'aplicarTransformacionXSLT': nueva definición; tipos básicos distintos
+  C:\Users\Rubo\Documents\UOC entregar\Programacion de comandos personalizados\Producto_4\Producto_4\xslt.h(4,6):
+  vea la declaración de 'aplicarTransformacionXSLT'
+  
