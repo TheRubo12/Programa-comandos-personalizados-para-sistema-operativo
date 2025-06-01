@@ -1,0 +1,19 @@
+Adaptador de LAN inal mbrica Wi-Fi:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : home
+   Descripci¢n . . . . . . . . . . . . . . . : Intel(R) Dual Band Wireless-AC 3168
+   Direcci¢n f¡sica. . . . . . . . . . . . . : 68-EC-C5-AE-29-FA
+   DHCP habilitado . . . . . . . . . . . . . : s¡
+   Configuraci¢n autom tica habilitada . . . : s¡
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::66bc:9917:6c96:5ea1%11(Preferido) 
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.1.76(Preferido) 
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Concesi¢n obtenida. . . . . . . . . . . . : jueves, 17 de abril de 2025 16:38:21
+   La concesi¢n expira . . . . . . . . . . . : viernes, 18 de abril de 2025 16:38:21
+   Puerta de enlace predeterminada . . . . . : 192.168.1.1
+   Servidor DHCP . . . . . . . . . . . . . . : 192.168.1.1
+   IAID DHCPv6 . . . . . . . . . . . . . . . : 107539653
+   DUID de cliente DHCPv6. . . . . . . . . . : 00-01-00-01-2B-25-5E-EA-30-9C-23-8D-9A-44
+   Servidores DNS. . . . . . . . . . . . . . : 192.168.1.1
+   NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado
+
